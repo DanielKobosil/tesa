@@ -1,7 +1,7 @@
 {
   "name": "Bizzy",
   "clients": [],
-  "modelProvider": "anthropic",
+  "modelProvider": "openrouter",
   "settings": {
       "voice": {
           "model": "en_GB-alan-medium"
