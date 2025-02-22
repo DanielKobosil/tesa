@@ -8,10 +8,10 @@ services:
         volumes:
             - ./data:/app/data
         environment:
-            ANTHROPIC_API_KEY=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
-            MONGODB_CONNECTION_STRING="mongodb+srv://kobosildaniel:INoQzGk25u7d9NpW@cluster0.ujtrf.mongodb.net/?retryWrites=true&w=majority"             #mongodb connection string
-            MONGODB_DATABASE="cluster0" 
-            SERVER_PORT=3000
+            ANTHROPIC_API_KEY: "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"
+            MONGODB_CONNECTION_STRING: "mongodb+srv://kobosildaniel:INoQzGk25u7d9NpW@cluster0.ujtrf.mongodb.net/?retryWrites=true&w=majority"
+            MONGODB_DATABASE: "cluster0"
+            SERVER_PORT: "3000"
         ports:
             - "3000:3000"
         restart: always
